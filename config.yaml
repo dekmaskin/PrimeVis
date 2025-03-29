@@ -1,0 +1,33 @@
+# Prime Visualizer Configuration
+
+# Grid configuration
+grid:
+  columns: 100         # Number of dots in x-axis
+  rows: 100            # Number of dots in y-axis
+  dot_size: 8          # Size of each dot in pixels
+  spacing: 2           # Spacing between dots in pixels
+  background_color: [255, 255, 255]  # White background
+
+# Prime type colors (RGB)
+colors:
+  regular_prime: [0, 0, 0]             # Black
+  twin_prime: [255, 0, 0]              # Red
+  mersenne_prime: [0, 255, 0]          # Green
+  safe_prime: [0, 0, 255]              # Blue
+  palindromic_prime: [255, 0, 255]     # Magenta
+  circular_prime: [255, 165, 0]        # Orange
+  sophie_germain_prime: [0, 255, 255]  # Cyan
+  factorial_prime: [128, 0, 128]       # Purple
+  fibonacci_prime: [255, 215, 0]       # Gold
+  sexy_prime: [255, 105, 180]          # Hot Pink
+  cuban_prime: [46, 139, 87]           # Sea Green
+  happy_prime: [30, 144, 255]          # Dodger Blue
+  chen_prime: [139, 69, 19]            # Saddle Brown
+  wieferich_prime: [220, 20, 60]       # Crimson
+  isolated_prime: [112, 128, 144]      # Slate Gray
+
+# Application settings
+application:
+  default_output_file: "prime_visualization.png"
+  enable_statistics: true
+  save_config_on_exit: true
